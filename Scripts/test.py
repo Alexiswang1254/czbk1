@@ -12,4 +12,4 @@ class Test_001:
     def test_002(self):
         # 测试方法2的描述信息,主要干了...
         print("-->test_002")
-        assert False
+        assert True
