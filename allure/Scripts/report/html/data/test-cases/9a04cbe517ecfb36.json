@@ -1,0 +1,94 @@
+{
+  "uid" : "9a04cbe517ecfb36",
+  "name" : "Test_001.test_002",
+  "fullName" : "test.Test_001.test_002",
+  "historyId" : "715af101965c34c08d3bd17a61349e02",
+  "time" : {
+    "start" : 1548410279779,
+    "stop" : 1548410279856,
+    "duration" : 77
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False",
+  "statusTrace" : "self = <test.Test_001 object at 0x000000000377F208>\n\n    @allure.step(title=\"我是test_002测试步骤名称\")\n    def test_002(self):\n        # 测试方法2的描述信息,主要干了...\n        print(\"-->test_002\")\n>       assert False\nE       assert False\n\ntest.py:15: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert False",
+    "statusTrace" : "self = <test.Test_001 object at 0x000000000377F208>\n\n    @allure.step(title=\"我是test_002测试步骤名称\")\n    def test_002(self):\n        # 测试方法2的描述信息,主要干了...\n        print(\"-->test_002\")\n>       assert False\nE       assert False\n\ntest.py:15: AssertionError",
+    "steps" : [ {
+      "name" : "我是test_002测试步骤名称",
+      "time" : {
+        "start" : 1548410279780,
+        "stop" : 1548410279782,
+        "duration" : 2
+      },
+      "status" : "failed",
+      "statusMessage" : "self = <test.Test_001 object at 0x000000000377F208>\n\n    @allure.step(title=\"我是test_002测试步骤名称\")\n    def test_002(self):\n        # 测试方法2的描述信息,主要干了...\n        print(\"-->test_002\")\n>       assert False\nE       assert False\n\ntest.py:15: AssertionError",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "20170818-191345"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "5388-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test"
+  }, {
+    "name" : "testClass",
+    "value" : "test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Test_001.test_002"
+  }, {
+    "name" : "package",
+    "value" : "test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9a04cbe517ecfb36.json",
+  "parameterValues" : [ ]
+}
